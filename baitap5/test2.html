@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test2</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        width: 1920px;
+        height: 1080px;
+        background-color: #e7e6e6;
+      }
+
+      .container__wrapper {
+        width: 992px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .container__header {
+        width: 100%;
+        height: 90px;
+background-color: #75FF35;
+      }
+
+      .container__body {
+        width: 100%;
+        height: 90px;
+        background-color: #EFFF61;
+      }
+
+      .container__foot {
+        width: 100%;
+        height: 900px;
+        display: flex;
+      }
+
+      .box__left {
+        width: 200px;
+        height: 100%;
+        background-color: #8F70FF;
+      }
+
+      .box__center {
+        width: 592px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .box__right {
+        width: 200px;
+        height: 100%;
+        background-color: #F86767;
+      }
+
+      .box__center__up {
+        width: 100%;
+        height: 400px;
+        background-color: #78E0E4;
+      }
+
+      .box__center__down {
+        width: 592px;
+        height: 500px;
+        display: flex;
+      }
+
+      .box__center__down__left {
+        width: 296px;
+        height: 100%;
+        background-color: #F98CFF;
+      }
+
+      .box__center__down__right {
+        width: 300px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .box__center__down__right__up{
+        width: 100%;
+        height: 247px;
+        background-color: #E2ED80;
+      }
+
+      .box__center__down__right__down {
+        width: 100%;
+        height: 253px;
+        background-color: #2643C2;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__wrapper">
+        <div class="container__header"></div>
+        <div class="container__body"></div>
+        <div class="container__foot">
+          <div class="box__left"></div>
+          <div class="box__center">
+            <div class="box__center__up"></div>
+            <div class="box__center__down">
+                <div class="box__center__down__left"></div>
+                <div class="box__center__down__right">
+                    <div class="box__center__down__right__up"></div>
+                    <div class="box__center__down__right__down"></div>
+                </div>
+            </div>
+          </div>
+          <div class="box__right"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
